@@ -2,7 +2,7 @@ import { useState } from "react";
 import NewProject from "./components/NewProject.jsx";
 import NoProjectSelected from "./components/NoProjectSelected.jsx";
 import ProjectsSidebar from "./components/ProjectsSidebar.jsx";
-import SelectedProject from "./components/SelectedProject.jsx";
+import SelectedProject from "./components/SelectedProject";
 
 function App() {
   const [projectStates, setProjectStates] = useState({
